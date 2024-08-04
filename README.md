@@ -10,12 +10,6 @@ Aprendiz em desenvolvimento Web.
 #### Top Repositories
 <a href="https://fabiochorobura.github.io/portfolio_fc_eng_clean.github.io">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=fabiochorobura&repo=github-readme-stats&theme=buefy" />
- 
-</a>
-<a href="https://github.com/fabiochorobura/[fabiochorobura.github.io"](https://fabiochorobura.github.io/portfolio_fc_eng_clean.github.io/)>
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=fabiochorobura&repo=github-readme-stats&theme=buefy" />
- <a href="https://github.com/fabiochorobura/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=fabiochorobura&repo=github-readme-stats&theme=buefy" />
   <a href="https://github.com/fabiochorobura/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=fabiochorobura&repo=github-readme-stats&theme=buefy" />
 </a>
