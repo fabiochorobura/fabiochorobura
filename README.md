@@ -14,7 +14,7 @@ Aprendiz em desenvolvimento Web.
 ### Projetos
  <a href="https://github.com/fabiochorobura/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabiochorobura&layout=compact&theme=buefy&hide_border=true" /></a>
 
-
+[![Readme Card](httpsgithub-readme-stats.vercel.appapipinusername=fabiochorobura&repo=variavel&theme=dark)](httpsgithub.comanuraghazragithub-readme-stats)
 
 ### Contatos
 # Em breve!
