@@ -8,7 +8,7 @@ Aprendiz em desenvolvimento Web.
  <a href="https://github.com/fabiochorobura/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=fabiochorobura&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Anurag's github stats" /></a>
 
 #### Top Repositories
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=fabiochorobura&repo=fabiochorobura.github.io)](https://github.com/fabiochorobura/fabiochorobura.github.io)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=fabiochorobura&repo=JavaScriptEBAC.github.io)](https://github.com/fabiochorobura/JavaScriptEBAC.github.io)
 </br>
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=fabiochorobura&repo=portfolio_fc_eng_clean.github.io)](https://github.com/fabiochorobura/portfolio_fc_eng_clean.github.io)
 
