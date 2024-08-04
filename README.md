@@ -9,7 +9,7 @@ Aprendiz em desenvolvimento Web.
 
 #### Top Repositories
 <a href="https://github.com/fabiochorobura/portfolio_fc_eng_clean.github.io">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=fabiochorobura&repo=github-readme-stats&theme=buefy" />
+  <img align="center" src="https://github.com/fabiochorobura/portfolio_fc_eng_clean.github.io?username=fabiochorobura&repo=github-readme-stats&theme=buefy" />
 
 
 ### Linguagens
