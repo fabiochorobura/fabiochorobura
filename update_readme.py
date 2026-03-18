@@ -7,8 +7,8 @@ Atualiza automaticamente o README.md do perfil GitHub com:
   1. Dados do LinkedIn: Sobre, Formação Acadêmica, Cursos & Certificados
      - Tenta scraping público do LinkedIn (best-effort)
      - Usa linkedin_data.json como fallback / dados manuais
-  2. Commits em repositórios PRÓPRIOS e de TERCEIROS (via GitHub Events API)
-  3. Linguagens mais usadas nos repos com commits (via GitHub Languages API)
+  2. Commits em repositórios PRÓPRIOS e de TERCEIROS (via GitHub Search Commits API)
+  3. Linguagens mais usadas em TODOS os repos com commits (via GitHub Languages API)
   4. Total de commits indexados pelo GitHub Search API
 
 Uso local:
@@ -176,12 +176,56 @@ def _gh_headers() -> dict:
     return h
 
 
-def get_user_events() -> list:
+def search_own_commits() -> dict:
     """
-    Busca até 300 eventos públicos do usuário.
-    Inclui PushEvents em repositórios de terceiros (últimos ~90 dias).
+    Busca commits do usuário em repos PRÓPRIOS via Search Commits API.
+    Retorna {repo_full_name: commit_count} — cobre histórico completo (repos públicos).
     """
-    events = []
+    h = _gh_headers()
+    h["Accept"] = "application/vnd.github.cloak-preview+json"
+
+    repo_commits: dict = {}
+    own_prefix = f"{GITHUB_USERNAME.lower()}/"
+    for page in range(1, 11):  # máx 10 páginas × 100 = 1000 commits
+        url = (
+            f"https://api.github.com/search/commits"
+            f"?q=author:{GITHUB_USERNAME}+user:{GITHUB_USERNAME}"
+            f"&sort=author-date&order=desc"
+            f"&per_page=100&page={page}"
+        )
+        resp = _safe_get(url, headers=h)
+        if resp is None or resp.status_code != 200:
+            code = getattr(resp, "status_code", "—")
+            print(f"  ⚠  Search Commits API: status {code}")
+            break
+        data  = resp.json()
+        items = data.get("items", [])
+        if not items:
+            break
+        for item in items:
+            repo = item["repository"]["full_name"]
+            repo_commits[repo] = repo_commits.get(repo, 0) + 1
+        total = data.get("total_count", 0)
+        print(f"  Página {page}: {len(items)} commits | repos próprios únicos: {len(repo_commits)} | total: {total}")
+        if page * 100 >= min(total, 1000):
+            break
+        time.sleep(0.35)
+    return repo_commits
+
+
+def get_events_third_party() -> dict:
+    """
+    Busca PushEvents via Events API (últimos 300 eventos).
+    Inclui repos de terceiros públicos E privados (quando autenticado com token repo scope).
+    Retorna {repo_full_name: commit_count} apenas para repos de terceiros.
+    """
+    if not GITHUB_TOKEN:
+        print("  ⚠  GITHUB_TOKEN não definido — Events API só verá repos públicos.")
+        print("     Para incluir repos PRIVADOS de terceiros, defina GITHUB_TOKEN com scope 'repo'.")
+
+    own_prefix = f"{GITHUB_USERNAME.lower()}/"
+    third_party: dict = {}
+
     for page in range(1, 4):  # 3 páginas × 100 = 300 eventos
         url = (
             f"https://api.github.com/users/{GITHUB_USERNAME}/events"
@@ -189,13 +233,23 @@ def get_user_events() -> list:
         )
         resp = _safe_get(url, headers=_gh_headers())
         if resp is None or resp.status_code != 200:
+            code = getattr(resp, "status_code", "—")
+            print(f"  ⚠  Events API: status {code}")
             break
         batch = resp.json()
         if not batch:
             break
-        events.extend(batch)
+        for ev in batch:
+            if ev.get("type") != "PushEvent":
+                continue
+            repo = ev["repo"]["name"]
+            if repo.lower().startswith(own_prefix):
+                continue
+            n = len(ev["payload"].get("commits", []))
+            third_party[repo] = third_party.get(repo, 0) + n
         time.sleep(0.25)
-    return events
+
+    return third_party
 
 
 def get_repo_languages(repo_full_name: str) -> dict:
@@ -217,29 +271,18 @@ def get_total_commits() -> int:
     return 0
 
 
-def analyze_events(events: list):
+def analyze_commits(own_repos: dict, third_party: dict):
     """
-    Analisa PushEvents e retorna:
-      third_party — {repo_full_name: commit_count} apenas repos de terceiros
-      lang_bytes  — Counter{linguagem: bytes_totais} de TODOS os repos com commits
+    Recebe repos próprios (Search API) e de terceiros (Events API).
+    Agrega linguagens (bytes) de TODOS os repos com commits.
+    Retorna (third_party dict, lang_bytes Counter).
     """
-    push_events = [e for e in events if e.get("type") == "PushEvent"]
-
-    commit_counts: dict = {}
-    for ev in push_events:
-        repo = ev["repo"]["name"]
-        n    = len(ev["payload"].get("commits", []))
-        commit_counts[repo] = commit_counts.get(repo, 0) + n
-
-    own_prefix  = f"{GITHUB_USERNAME.lower()}/"
-    third_party = {
-        repo: cnt
-        for repo, cnt in commit_counts.items()
-        if not repo.lower().startswith(own_prefix)
-    }
+    all_repos = {**own_repos, **third_party}
 
     lang_bytes: Counter = Counter()
-    for repo in commit_counts:
+    total = len(all_repos)
+    for i, repo in enumerate(all_repos, 1):
+        print(f"  [{i}/{total}] linguagens: {repo}")
         lang_bytes.update(get_repo_languages(repo))
 
     return third_party, lang_bytes
@@ -277,6 +320,20 @@ def build_readme(
         if per:
             line += f" *({per})*"
         formacoes_md += line + "\n"
+
+    # ── Experiência ────────────────────────────────────────────────────────
+    exp_md = ""
+    for item in ld.get("experiencia", []):
+        cargo  = item.get("cargo", "")
+        emp    = item.get("empresa", "")
+        per    = item.get("periodo", "")
+        desc   = item.get("descricao", "")
+        line   = f"- **{cargo}** @ {emp}"
+        if per:
+            line += f" *({per})*"
+        if desc:
+            line += f"  \n  {desc}"
+        exp_md += line + "\n"
 
     # ── Certificados ──────────────────────────────────────────────────────
     certs_md = ""
@@ -338,7 +395,13 @@ def build_readme(
 
 ---
 
-## 📜 Cursos & Certificados
+## � Experiência Profissional
+
+{exp_md.strip() or "_Preencha `linkedin_data.json` com sua experiência._"}
+
+---
+
+## �📜 Cursos & Certificados
 
 {certs_md.strip() or "_Preencha `linkedin_data.json` com seus certificados._"}
 
@@ -410,12 +473,16 @@ def main() -> None:
     print("▶ [1/4] Carregando dados do LinkedIn …")
     linkedin = load_linkedin_data()
 
-    print("\n▶ [2/4] Buscando eventos do GitHub …")
-    events = get_user_events()
-    print(f"  {len(events)} eventos obtidos.")
+    print("\n▶ [2/4] Buscando commits em repos PRÓPRIOS (Search API — histórico completo) …")
+    own_repos = search_own_commits()
+    print(f"  {sum(own_repos.values())} commits em {len(own_repos)} repos próprios.")
 
-    print("\n▶ [3/4] Analisando commits e linguagens …")
-    third_party, lang_bytes = analyze_events(events)
+    print("\n▶ [2b] Buscando commits em repos de TERCEIROS (Events API — inclui privados com token) …")
+    third_party_repos = get_events_third_party()
+    print(f"  {sum(third_party_repos.values())} commits em {len(third_party_repos)} repos de terceiros.")
+
+    print("\n▶ [3/4] Analisando linguagens dos repos …")
+    third_party, lang_bytes = analyze_commits(own_repos, third_party_repos)
     total_commits = get_total_commits()
     print(f"  Repos de terceiros com commits : {len(third_party)}")
     print(f"  Linguagens detectadas          : {len(lang_bytes)}")

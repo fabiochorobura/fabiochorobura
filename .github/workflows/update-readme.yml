@@ -26,7 +26,7 @@ jobs:
 
       - name: 🚀 Executar script de atualização
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: python update_readme.py
 
       - name: 💾 Commit e push do README atualizado

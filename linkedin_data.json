@@ -1,28 +1,48 @@
 {
-  "_comentario": "Preencha este arquivo com seus dados do LinkedIn. O script update_readme.py lê este arquivo para gerar o README. Dados aqui têm prioridade sobre o scraping automático.",
+  "_comentario": "Dados do LinkedIn de Fabio Chorobura. Editados manualmente. Têm prioridade sobre scraping automático.",
 
-  "sobre": "Engenheiro da Computação com experiência em **Quality Assurance** nas ferramentas Postman, K6 e JMeter. Aprendiz em desenvolvimento Web com JavaScript, HTML e CSS. Focado em qualidade de software, automação de testes e boas práticas de engenharia.",
+  "sobre": "Sou Desenvolvedor Fullstack na LCI Telecom, com formação em Engenharia de Computação pela UNINASSAU e devidamente registrado ao CREA-MT.\n\nMinha atuação combina desenvolvimento técnico e gestão operacional, aplicando tecnologias como Java (microsserviços), ReactJS, PostgreSQL para criar soluções robustas e escaláveis.\n\nNo meu papel atual, trabalho tanto em sistemas de controle de frotas, atendimentos e faturamento (modelagem de dados, relatórios financeiros e operacionais) quanto em gestão de atendimentos e processos sistêmicos (instalações, agendamentos e logística de equipes).\n\nAnteriormente, aprofundei meus conhecimentos em qualidade de software e automação de testes AWS na Compass UOL.\n\nSou apaixonado por tecnologia e motivado pelo desafio de transformar dados em inteligência operacional, desenvolvendo sistemas que aumentam a eficiência e apoiam decisões estratégicas no setor de telecomunicações e gestão corporativa.",
 
   "formacoes": [
     {
-      "instituicao": "Informe sua instituição (ex: FIAP, USP, FATEC…)",
+      "instituicao": "UNINASSAU",
       "curso": "Engenharia da Computação",
-      "periodo": "Informe o período (ex: 2018–2023)"
+      "periodo": "jan/2019 – dez/2023"
+    },
+    {
+      "instituicao": "FACUMINAS",
+      "curso": "Pós-graduação Lato Sensu — Gestão de Projetos de TI",
+      "periodo": "mai/2025 – jan/2026"
+    }
+  ],
+
+  "experiencia": [
+    {
+      "cargo": "Analista de Desenvolvimento de Sistemas",
+      "empresa": "LCI Telecom",
+      "periodo": "out/2024 – presente",
+      "descricao": "Desenvolvimento Full Stack — Java Spring, ReactJS, PostgreSQL, NodeJS"
+    },
+    {
+      "cargo": "AWS for Software Quality & Test Automation",
+      "empresa": "Compass UOL",
+      "periodo": "ago/2023 – dez/2023",
+      "descricao": "Qualidade de software e automação de testes AWS — Node.js, K6 e mais 15 competências"
     }
   ],
 
   "certificados": [
     {
-      "nome": "Desenvolvimento JavaScript",
-      "emissor": "EBAC",
-      "data": "",
-      "url": "https://github.com/fabiochorobura/JavaScriptEBAC.github.io"
+      "nome": "Java: criando a sua primeira aplicação",
+      "emissor": "Alura",
+      "data": "jan/2025",
+      "url": "https://cursos.alura.com.br/certificate/8a630665-c0a1-46d2-95c7-fe38bfa63d5d"
     },
     {
-      "nome": "Adicione seu certificado aqui",
-      "emissor": "Nome do emissor",
-      "data": "MM/AAAA",
-      "url": ""
+      "nome": "Spring Boot 3: desenvolva uma API Rest em Java",
+      "emissor": "Alura",
+      "data": "nov/2024",
+      "url": "https://cursos.alura.com.br/certificate/df037dd1-0e85-47b5-9b7e-c55647cb70d1"
     }
   ],
 
