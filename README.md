@@ -1,6 +1,6 @@
 # Olá, sou Fabio Chorobura 👋
 
-> *Atualizado automaticamente em 18/03/2026 22:34 UTC*
+> *Atualizado automaticamente em 18/03/2026 22:36 UTC*
 
 Sou Desenvolvedor Fullstack na LCI Telecom, com formação em Engenharia de Computação pela UNINASSAU e devidamente registrado ao CREA-MT.
 
@@ -37,21 +37,22 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 
 ---
 
-<table width="100%"><tr valign="top">
+## 🔤 Linguagens em projetos de terceiros
 
-<td width="100%">
-<h3>🔤 Linguagens em projetos de terceiros</h3>
 <table width="100%">
-<tr><th align="left">Linguagem</th><th align="left">Proporção</th><th>%</th></tr>
+<tr><th align="left">Linguagem</th><th align="left">Proporção</th><th align="right">%</th></tr>
 <tr><td><b>TypeScript</b></td><td><code>███████████████████████████░░░</code></td><td align='right'>89.6%</td></tr>
 <tr><td><b>Java</b></td><td><code>███░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td align='right'>9.9%</td></tr>
 <tr><td><b>JavaScript</b></td><td><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td align='right'>0.3%</td></tr>
 <tr><td><b>HTML</b></td><td><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td align='right'>0.1%</td></tr>
 <tr><td><b>CSS</b></td><td><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td align='right'>0.1%</td></tr>
 </table>
-</div>
 
-<td width="50%">
+---
+
+<table width="100%"><tr valign="top">
+
+<td width="34%">
 <h3>🤝 Contribuições</h3>
 <table width="100%">
 <tr><th>Repositório</th><th>Dono</th><th>Commits</th></tr>
@@ -60,7 +61,7 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 </table>
 </td>
 
-<td width="50%">
+<td width="33%">
 <h3>🛠️ Tecnologias</h3>
 <b>QA &amp; Testes:</b><br/>
 <img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white" />
@@ -79,11 +80,11 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" />
 </td>
 
+<td width="33%">
+<h3>📞 Contatos</h3>
+<a href="https://www.linkedin.com/in/fabiochorobura"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" /></a><br/><br/>
+<a href="https://github.com/fabiochorobura"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" /></a><br/><br/>
+
+</td>
+
 </tr></table>
-
----
-
-## 📞 Contatos
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabiochorobura)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/fabiochorobura)
