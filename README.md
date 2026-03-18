@@ -1,6 +1,6 @@
 # Olá, sou Fabio Chorobura 👋
 
-> *Atualizado automaticamente em 18/03/2026 22:09 UTC*
+> *Atualizado automaticamente em 18/03/2026 22:12 UTC*
 
 Sou Desenvolvedor Fullstack na LCI Telecom, com formação em Engenharia de Computação pela UNINASSAU e devidamente registrado ao CREA-MT.
 
@@ -40,10 +40,16 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 ## 📊 Estatísticas GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=fabiochorobura&show_icons=true&include_all_commits=true&count_private=true&theme=buefy&hide_border=true&locale=pt-br" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=fabiochorobura&show_icons=true&include_all_commits=true&hide=contribs,issues,prs&theme=buefy&hide_border=true&locale=pt-br&custom_title=Estat%C3%ADsticas+P%C3%BAblicas" alt="GitHub Stats" />
   &nbsp;
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabiochorobura&layout=compact&theme=buefy&hide_border=true&locale=pt-br" alt="Linguagens Mais Usadas" />
 </p>
+
+| | |
+|---|---|
+| 📌 Commits em repositórios públicos | **125** |
+| 🤝 Commits em projetos de terceiros (privados) | **58** |
+| 🔢 **Total geral** | **183** |
 
 ---
 
