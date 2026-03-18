@@ -1,6 +1,6 @@
 # Olá, sou Fabio Chorobura 👋
 
-> *Atualizado automaticamente em 18/03/2026 22:05 UTC*
+> *Atualizado automaticamente em 18/03/2026 22:09 UTC*
 
 Sou Desenvolvedor Fullstack na LCI Telecom, com formação em Engenharia de Computação pela UNINASSAU e devidamente registrado ao CREA-MT.
 
@@ -39,13 +39,15 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 
 ## 📊 Estatísticas GitHub
 
-| Métrica | Valor |
-|---|---|
-| Total de commits (público + privado) | **181** |
-| Commits em repositórios públicos | 123 |
-| Commits em repositórios de terceiros (desde 2024) | 58 |
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=fabiochorobura&show_icons=true&include_all_commits=true&count_private=true&theme=buefy&hide_border=true&locale=pt-br" alt="GitHub Stats" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabiochorobura&layout=compact&theme=buefy&hide_border=true&locale=pt-br" alt="Linguagens Mais Usadas" />
+</p>
 
-### 🔤 Linguagens utilizadas em projetos de terceiros
+---
+
+## 🔤 Linguagens utilizadas em projetos de terceiros
 
 | Linguagem | Proporção | % |
 |---|---|---|
@@ -55,7 +57,9 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 | HTML                 | ░░░░░░░░░░░░░░░░░░░░░░ |   0.1% |
 | CSS                  | ░░░░░░░░░░░░░░░░░░░░░░ |   0.1% |
 
-### 🤝 Contribuições em Repositórios de Terceiros
+---
+
+## 🤝 Contribuições em Repositórios de Terceiros
 
 | Repositório | Organização / Dono | Commits |
 |---|---|---|
