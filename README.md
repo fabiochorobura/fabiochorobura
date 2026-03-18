@@ -1,6 +1,6 @@
 # Olá, sou Fabio Chorobura 👋
 
-> *Atualizado automaticamente em 18/03/2026 22:36 UTC*
+> *Atualizado automaticamente em 18/03/2026 22:39 UTC*
 
 Sou Desenvolvedor Fullstack na LCI Telecom, com formação em Engenharia de Computação pela UNINASSAU e devidamente registrado ao CREA-MT.
 
@@ -40,35 +40,34 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 ## 🔤 Linguagens em projetos de terceiros
 
 <table width="100%">
-<tr><th align="left">Linguagem</th><th align="left">Proporção</th><th align="right">%</th></tr>
-<tr><td><b>TypeScript</b></td><td><code>███████████████████████████░░░</code></td><td align='right'>89.6%</td></tr>
-<tr><td><b>Java</b></td><td><code>███░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td align='right'>9.9%</td></tr>
-<tr><td><b>JavaScript</b></td><td><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td align='right'>0.3%</td></tr>
-<tr><td><b>HTML</b></td><td><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td align='right'>0.1%</td></tr>
-<tr><td><b>CSS</b></td><td><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td align='right'>0.1%</td></tr>
+<tr><th width="12%" align="left">Linguagem</th><th width="82%" align="left">Proporção</th><th width="6%" align="right">%</th></tr>
+<tr><td width='12%'><b>TypeScript</b></td><td width='82%'><code>████████████████████████████████████░░░░</code></td><td width='6%' align='right'><b>89.6%</b></td></tr>
+<tr><td width='12%'><b>Java</b></td><td width='82%'><code>████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>9.9%</b></td></tr>
+<tr><td width='12%'><b>JavaScript</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.3%</b></td></tr>
+<tr><td width='12%'><b>HTML</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.1%</b></td></tr>
+<tr><td width='12%'><b>CSS</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.1%</b></td></tr>
 </table>
 
 ---
 
-<table width="100%"><tr valign="top">
+## 🤝 Contribuições em projetos de terceiros
 
-<td width="34%">
-<h3>🤝 Contribuições</h3>
 <table width="100%">
-<tr><th>Repositório</th><th>Dono</th><th>Commits</th></tr>
+<tr><th width="40%" align="left">Repositório</th><th width="40%" align="center">Organização / Dono</th><th width="20%" align="center">Commits</th></tr>
 <tr><td><a href='https://github.com/ffabianosantos/EcacambasNew'><b>EcacambasNew</b></a></td><td align='center'><code>ffabianosantos</code></td><td align='center'><b>54</b></td></tr>
 <tr><td><a href='https://github.com/ffabianosantos/Pedidos'><b>Pedidos</b></a></td><td align='center'><code>ffabianosantos</code></td><td align='center'><b>4</b></td></tr>
 </table>
-</td>
 
-<td width="33%">
-<h3>🛠️ Tecnologias</h3>
-<b>QA &amp; Testes:</b><br/>
+---
+
+## 🛠️ Tecnologias
+
+**QA &amp; Testes:**
 <img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white" />
 <img src="https://img.shields.io/badge/K6-7D64FF?logo=k6&logoColor=white" />
 <img src="https://img.shields.io/badge/JMeter-D4AF37?logo=java&logoColor=white" />
-<br/><br/>
-<b>Desenvolvimento:</b><br/>
+
+**Desenvolvimento:**
 <img src="https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white" />
 <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
@@ -78,13 +77,10 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" />
 <img src="https://img.shields.io/badge/HTML5-E34C26?logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" />
-</td>
 
-<td width="33%">
-<h3>📞 Contatos</h3>
-<a href="https://www.linkedin.com/in/fabiochorobura"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" /></a><br/><br/>
-<a href="https://github.com/fabiochorobura"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" /></a><br/><br/>
+---
 
-</td>
+## 📞 Contatos
 
-</tr></table>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabiochorobura)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/fabiochorobura)
