@@ -1,6 +1,6 @@
 # Olá, sou Fabio Chorobura 👋
 
-> *Atualizado automaticamente em 18/03/2026 22:27 UTC*
+> *Atualizado automaticamente em 18/03/2026 22:31 UTC*
 
 Sou Desenvolvedor Fullstack na LCI Telecom, com formação em Engenharia de Computação pela UNINASSAU e devidamente registrado ao CREA-MT.
 
@@ -16,7 +16,8 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 
 ## 🎓 Formação Acadêmica
 
-_Sem dados de formação._
+- **UNINASSAU** — Engenharia da Computação *(jan/2019 – dez/2023)*
+- **FACUMINAS** — Pós-graduação Lato Sensu — Gestão de Projetos de TI *(mai/2025 – jan/2026)*
 
 ---
 
