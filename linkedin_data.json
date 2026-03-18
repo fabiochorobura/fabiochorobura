@@ -1,0 +1,34 @@
+{
+  "_comentario": "Preencha este arquivo com seus dados do LinkedIn. O script update_readme.py lê este arquivo para gerar o README. Dados aqui têm prioridade sobre o scraping automático.",
+
+  "sobre": "Engenheiro da Computação com experiência em **Quality Assurance** nas ferramentas Postman, K6 e JMeter. Aprendiz em desenvolvimento Web com JavaScript, HTML e CSS. Focado em qualidade de software, automação de testes e boas práticas de engenharia.",
+
+  "formacoes": [
+    {
+      "instituicao": "Informe sua instituição (ex: FIAP, USP, FATEC…)",
+      "curso": "Engenharia da Computação",
+      "periodo": "Informe o período (ex: 2018–2023)"
+    }
+  ],
+
+  "certificados": [
+    {
+      "nome": "Desenvolvimento JavaScript",
+      "emissor": "EBAC",
+      "data": "",
+      "url": "https://github.com/fabiochorobura/JavaScriptEBAC.github.io"
+    },
+    {
+      "nome": "Adicione seu certificado aqui",
+      "emissor": "Nome do emissor",
+      "data": "MM/AAAA",
+      "url": ""
+    }
+  ],
+
+  "contato": {
+    "email": "",
+    "telefone": "",
+    "site": ""
+  }
+}
