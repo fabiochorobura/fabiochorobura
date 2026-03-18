@@ -1,6 +1,6 @@
 # Olá, sou Fabio Chorobura 👋
 
-> *Atualizado automaticamente em 18/03/2026 21:48 UTC*
+> *Atualizado automaticamente em 18/03/2026 21:56 UTC*
 
 Sou Desenvolvedor Fullstack na LCI Telecom, com formação em Engenharia de Computação pela UNINASSAU e devidamente registrado ao CREA-MT.
 
@@ -45,22 +45,19 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabiochorobura&layout=compact&theme=buefy&hide_border=true" alt="Top Languages" />
 </p>
 
-**Total de commits indexados:** 121
+**Total de commits indexados:** 122
 
 ---
 
-## 🔤 Linguagens nos Repositórios com Commits
+## 🔤 Linguagens nos Repositórios de Terceiros
 
 | Linguagem             | Proporção                |    %   |
 |-----------------------|--------------------------|--------|
-| TypeScript           | ██████░░░░░░░░░░░░░░░░ |  29.3% |
-| HTML                 | █████░░░░░░░░░░░░░░░░░ |  22.3% |
-| SCSS                 | ███░░░░░░░░░░░░░░░░░░░ |  15.5% |
-| CSS                  | ███░░░░░░░░░░░░░░░░░░░ |  14.2% |
-| TeX                  | ██░░░░░░░░░░░░░░░░░░░░ |   8.3% |
-| JavaScript           | █░░░░░░░░░░░░░░░░░░░░░ |   6.3% |
-| Java                 | █░░░░░░░░░░░░░░░░░░░░░ |   3.2% |
-| Python               | ░░░░░░░░░░░░░░░░░░░░░░ |   0.9% |
+| TypeScript           | ████████████████████░░ |  89.6% |
+| Java                 | ██░░░░░░░░░░░░░░░░░░░░ |   9.9% |
+| JavaScript           | ░░░░░░░░░░░░░░░░░░░░░░ |   0.3% |
+| HTML                 | ░░░░░░░░░░░░░░░░░░░░░░ |   0.1% |
+| CSS                  | ░░░░░░░░░░░░░░░░░░░░░░ |   0.1% |
 
 ---
 
@@ -68,8 +65,8 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 
 | Repositório           | Organização / Dono  | Commits |
 |-----------------------|---------------------|---------|
-| [Pedidos](https://github.com/ffabianosantos/Pedidos) | `ffabianosantos` | 0 |
-| [EcacambasNew](https://github.com/ffabianosantos/EcacambasNew) | `ffabianosantos` | 0 |
+| [EcacambasNew](https://github.com/ffabianosantos/EcacambasNew) | `ffabianosantos` | 54 |
+| [Pedidos](https://github.com/ffabianosantos/Pedidos) | `ffabianosantos` | 4 |
 
 ---
 

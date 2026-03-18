@@ -215,26 +215,27 @@ def search_own_commits() -> dict:
 
 def get_events_third_party() -> dict:
     """
-    Busca PushEvents via Events API (últimos 300 eventos).
-    Inclui repos de terceiros públicos E privados (quando autenticado com token repo scope).
-    Retorna {repo_full_name: commit_count} apenas para repos de terceiros.
+    Passo 1: Usa Events API para DESCOBRIR os repos de terceiros.
+    Passo 2: Para cada repo encontrado, conta commits desde 2024-01-01
+             via /repos/{owner}/{repo}/commits?author=...&since=...
+    Retorna {repo_full_name: commit_count}.
     """
     if not GITHUB_TOKEN:
         print("  ⚠  GITHUB_TOKEN não definido — Events API só verá repos públicos.")
         print("     Para incluir repos PRIVADOS de terceiros, defina GITHUB_TOKEN com scope 'repo'.")
 
     own_prefix = f"{GITHUB_USERNAME.lower()}/"
-    third_party: dict = {}
 
-    for page in range(1, 4):  # 3 páginas × 100 = 300 eventos
+    # ── Passo 1: descobrir repos de terceiros via Events ──────────────────
+    third_repos: set = set()
+    for page in range(1, 4):
         url = (
             f"https://api.github.com/users/{GITHUB_USERNAME}/events"
             f"?per_page=100&page={page}"
         )
         resp = _safe_get(url, headers=_gh_headers())
         if resp is None or resp.status_code != 200:
-            code = getattr(resp, "status_code", "—")
-            print(f"  ⚠  Events API: status {code}")
+            print(f"  ⚠  Events API: status {getattr(resp, 'status_code', '—')}")
             break
         batch = resp.json()
         if not batch:
@@ -243,11 +244,39 @@ def get_events_third_party() -> dict:
             if ev.get("type") != "PushEvent":
                 continue
             repo = ev["repo"]["name"]
-            if repo.lower().startswith(own_prefix):
-                continue
-            n = len(ev["payload"].get("commits", []))
-            third_party[repo] = third_party.get(repo, 0) + n
+            if not repo.lower().startswith(own_prefix):
+                third_repos.add(repo)
         time.sleep(0.25)
+
+    print(f"  Repos de terceiros descobertos: {sorted(third_repos)}")
+
+    # ── Passo 2: contar commits desde 2024-01-01 em cada repo ────────────
+    third_party: dict = {}
+    since = "2024-01-01T00:00:00Z"
+    for repo in sorted(third_repos):
+        count = 0
+        page  = 1
+        while True:
+            url = (
+                f"https://api.github.com/repos/{repo}/commits"
+                f"?author={GITHUB_USERNAME}&since={since}"
+                f"&per_page=100&page={page}"
+            )
+            resp = _safe_get(url, headers=_gh_headers())
+            if resp is None or resp.status_code != 200:
+                print(f"  ⚠  Commits de {repo}: status {getattr(resp, 'status_code', '—')}")
+                break
+            items = resp.json()
+            if not isinstance(items, list) or not items:
+                break
+            count += len(items)
+            if len(items) < 100:
+                break
+            page += 1
+            time.sleep(0.3)
+        print(f"  {repo}: {count} commits desde 2024")
+        if count > 0:
+            third_party[repo] = count
 
     return third_party
 
@@ -274,15 +303,13 @@ def get_total_commits() -> int:
 def analyze_commits(own_repos: dict, third_party: dict):
     """
     Recebe repos próprios (Search API) e de terceiros (Events API).
-    Agrega linguagens (bytes) de TODOS os repos com commits.
+    Agrega linguagens (bytes) APENAS dos repos de terceiros.
     Retorna (third_party dict, lang_bytes Counter).
     """
-    all_repos = {**own_repos, **third_party}
-
     lang_bytes: Counter = Counter()
-    total = len(all_repos)
-    for i, repo in enumerate(all_repos, 1):
-        print(f"  [{i}/{total}] linguagens: {repo}")
+    total = len(third_party)
+    for i, repo in enumerate(third_party, 1):
+        print(f"  [{i}/{total}] linguagens (terceiros): {repo}")
         lang_bytes.update(get_repo_languages(repo))
 
     return third_party, lang_bytes
@@ -419,7 +446,7 @@ def build_readme(
 
 ---
 
-## 🔤 Linguagens nos Repositórios com Commits
+## 🔤 Linguagens nos Repositórios de Terceiros
 
 | Linguagem             | Proporção                |    %   |
 |-----------------------|--------------------------|--------|
