@@ -1,6 +1,6 @@
 # Olá, sou Fabio Chorobura 👋
 
-> *Atualizado automaticamente em 18/03/2026 22:12 UTC*
+> *Atualizado automaticamente em 18/03/2026 22:15 UTC*
 
 Sou Desenvolvedor Fullstack na LCI Telecom, com formação em Engenharia de Computação pela UNINASSAU e devidamente registrado ao CREA-MT.
 
@@ -45,11 +45,42 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabiochorobura&layout=compact&theme=buefy&hide_border=true&locale=pt-br" alt="Linguagens Mais Usadas" />
 </p>
 
-| | |
-|---|---|
-| 📌 Commits em repositórios públicos | **125** |
-| 🤝 Commits em projetos de terceiros (privados) | **58** |
-| 🔢 **Total geral** | **183** |
+<p align="center">
+  <img src="https://img.shields.io/badge/Commits_P%C3%BAblicos-126-4078c0?style=for-the-badge&logo=github&logoColor=white" alt="Commits Públicos" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Projetos_de_Terceiros-58-7c3aed?style=for-the-badge&logo=git&logoColor=white" alt="Commits Terceiros" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Total_de_Commits-184-22c55e?style=for-the-badge&logo=github-actions&logoColor=white" alt="Total de Commits" />
+</p>
+
+---
+
+## 🔤 Linguagens utilizadas em projetos de terceiros
+
+<div align="center">
+
+| Linguagem | Proporção | % |
+|:---|:---|:---:|
+| TypeScript           | ████████████████████░░ |  89.6% |
+| Java                 | ██░░░░░░░░░░░░░░░░░░░░ |   9.9% |
+| JavaScript           | ░░░░░░░░░░░░░░░░░░░░░░ |   0.3% |
+| HTML                 | ░░░░░░░░░░░░░░░░░░░░░░ |   0.1% |
+| CSS                  | ░░░░░░░░░░░░░░░░░░░░░░ |   0.1% |
+
+</div>
+
+---
+
+## 🤝 Contribuições em Repositórios de Terceiros
+
+<div align="center">
+
+| Repositório | Organização / Dono | Commits |
+|:---:|:---:|:---:|
+| [EcacambasNew](https://github.com/ffabianosantos/EcacambasNew) | `ffabianosantos` | 54 |
+| [Pedidos](https://github.com/ffabianosantos/Pedidos) | `ffabianosantos` | 4 |
+
+</div>
 
 ---
 
