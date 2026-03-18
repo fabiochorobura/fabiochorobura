@@ -1,6 +1,6 @@
 # Olá, sou Fabio Chorobura 👋
 
-> *Atualizado automaticamente em 18/03/2026 22:31 UTC*
+> *Atualizado automaticamente em 18/03/2026 22:32 UTC*
 
 Sou Desenvolvedor Fullstack na LCI Telecom, com formação em Engenharia de Computação pela UNINASSAU e devidamente registrado ao CREA-MT.
 
@@ -39,7 +39,7 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 
 <table width="100%"><tr valign="top">
 
-<td width="46%">
+<td width="100%">
 <h3>🔤 Linguagens em projetos de terceiros</h3>
 <table width="100%">
 <tr><th align="left">Linguagem</th><th align="left">Proporção</th><th>%</th></tr>
@@ -51,7 +51,7 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 </table>
 </td>
 
-<td width="20%">
+<td width="50%">
 <h3>🤝 Contribuições</h3>
 <table width="100%">
 <tr><th>Repositório</th><th>Dono</th><th>Commits</th></tr>
@@ -60,7 +60,7 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 </table>
 </td>
 
-<td width="34%">
+<td width="50%">
 <h3>🛠️ Tecnologias</h3>
 <b>QA &amp; Testes:</b><br/>
 <img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white" />
