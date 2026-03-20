@@ -1,5 +1,13 @@
 # Olá, sou Fabio Chorobura 👋
 
+
+Verdade! A URL correta é:
+
+**https://github.com/settings/tokens/new**
+
+Esta leva direto para criar um novo token clássico, onde aparecem as opções de escopos que você precisa (`repo`, `read:org`, `read:user`). 🎯
+
+
 > *Atualizado automaticamente em 18/03/2026 22:39 UTC*
 
 Sou Desenvolvedor Fullstack na LCI Telecom, com formação em Engenharia de Computação pela UNINASSAU e devidamente registrado ao CREA-MT.
