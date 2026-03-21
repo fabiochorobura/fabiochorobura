@@ -3,8 +3,6 @@
 
 Verdade! A URL correta é:
 
-**https://github.com/settings/tokens/new**
-
 Esta leva direto para criar um novo token clássico, onde aparecem as opções de escopos que você precisa (`repo`, `read:org`, `read:user`). 🎯
 
 
