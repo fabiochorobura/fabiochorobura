@@ -1,6 +1,6 @@
 # Olá, sou Fabio Chorobura 👋
 
-> *Atualizado automaticamente em 21/03/2026 00:05 UTC*
+> *Atualizado automaticamente em 21/03/2026 00:08 UTC*
 
 Sou Desenvolvedor Fullstack na LCI Telecom, com formação em Engenharia de Computação pela UNINASSAU e devidamente registrado ao CREA-MT.
 
@@ -52,11 +52,10 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 
 ## 🤝 Contribuições em projetos de terceiros
 
-<table width="100%">
-<tr><th width="40%" align="left">Repositório</th><th width="40%" align="center">Organização / Dono</th><th width="20%" align="center">Commits</th></tr>
-<tr><td><a href='https://github.com/ffabianosantos/Front-Pedidos-Extra'><b>Front-Pedidos-Extra</b></a></td><td align='center'><code>ffabianosantos</code></td><td align='center'><b>19</b></td></tr>
-<tr><td><a href='https://github.com/ffabianosantos/Pedidos'><b>Pedidos</b></a></td><td align='center'><code>ffabianosantos</code></td><td align='center'><b>9</b></td></tr>
-</table>
+
+- **28 commits** em 2 repositórios de terceiros
+- **5 linguagens** detectadas
+
 
 ---
 
