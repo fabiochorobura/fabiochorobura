@@ -1,6 +1,6 @@
 # Olá, sou Fabio Chorobura 👋
 
-> *Atualizado automaticamente em 21/03/2026 00:11 UTC*
+> *Atualizado automaticamente em 21/03/2026 00:12 UTC*
 
 Sou Desenvolvedor Fullstack na LCI Telecom, com formação em Engenharia de Computação pela UNINASSAU e devidamente registrado ao CREA-MT.
 
@@ -19,21 +19,7 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 - **UNINASSAU** — Engenharia da Computação *(jan/2019 – dez/2023)*
 - **FACUMINAS** — Pós-graduação Lato Sensu — Gestão de Projetos de TI *(mai/2025 – jan/2026)*
 
----
 
-## 💼 Experiência Profissional
-
-- **Analista de Desenvolvimento de Sistemas** @ LCI Telecom *(out/2024 – presente)*  
-  Desenvolvimento Full Stack — Java Spring, ReactJS, PostgreSQL, NodeJS
-- **AWS for Software Quality & Test Automation** @ Compass UOL *(ago/2023 – dez/2023)*  
-  Qualidade de software e automação de testes AWS — Node.js, K6 e mais 15 competências
-
----
-
-## 📜 Cursos & Certificados
-
-- [Java: criando a sua primeira aplicação](https://cursos.alura.com.br/certificate/8a630665-c0a1-46d2-95c7-fe38bfa63d5d) — *Alura* _jan/2025_
-- [Spring Boot 3: desenvolva uma API Rest em Java](https://cursos.alura.com.br/certificate/df037dd1-0e85-47b5-9b7e-c55647cb70d1) — *Alura* _nov/2024_
 
 ---
 
@@ -53,7 +39,7 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 ## 🤝 Contribuições em projetos de terceiros
 
 
-- **165** commits totais (Search API)
+- **166** commits totais (Search API)
 - **28** commits em 2 repositórios de terceiros
 - **5** linguagens detectadas
 
