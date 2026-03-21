@@ -1,14 +1,6 @@
 # Olá, sou Fabio Chorobura 👋
 
-
-Verdade! A URL correta é:
-
-**https://github.com/settings/tokens/new**
-
-Esta leva direto para criar um novo token clássico, onde aparecem as opções de escopos que você precisa (`repo`, `read:org`, `read:user`). 🎯
-
-
-> *Atualizado automaticamente em 18/03/2026 22:39 UTC*
+> *Atualizado automaticamente em 21/03/2026 00:01 UTC*
 
 Sou Desenvolvedor Fullstack na LCI Telecom, com formação em Engenharia de Computação pela UNINASSAU e devidamente registrado ao CREA-MT.
 
@@ -49,11 +41,11 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 
 <table width="100%">
 <tr><th width="12%" align="left">Linguagem</th><th width="82%" align="left">Proporção</th><th width="6%" align="right">%</th></tr>
-<tr><td width='12%'><b>TypeScript</b></td><td width='82%'><code>████████████████████████████████████░░░░</code></td><td width='6%' align='right'><b>89.6%</b></td></tr>
-<tr><td width='12%'><b>Java</b></td><td width='82%'><code>████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>9.9%</b></td></tr>
-<tr><td width='12%'><b>JavaScript</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.3%</b></td></tr>
-<tr><td width='12%'><b>HTML</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.1%</b></td></tr>
-<tr><td width='12%'><b>CSS</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.1%</b></td></tr>
+<tr><td width='12%'><b>TypeScript</b></td><td width='82%'><code>█████████████████████████████████░░░░░░░</code></td><td width='6%' align='right'><b>83.3%</b></td></tr>
+<tr><td width='12%'><b>Java</b></td><td width='82%'><code>██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>15.9%</b></td></tr>
+<tr><td width='12%'><b>JavaScript</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.4%</b></td></tr>
+<tr><td width='12%'><b>HTML</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.2%</b></td></tr>
+<tr><td width='12%'><b>CSS</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.2%</b></td></tr>
 </table>
 
 ---
@@ -62,8 +54,8 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 
 <table width="100%">
 <tr><th width="40%" align="left">Repositório</th><th width="40%" align="center">Organização / Dono</th><th width="20%" align="center">Commits</th></tr>
-<tr><td><a href='https://github.com/ffabianosantos/EcacambasNew'><b>EcacambasNew</b></a></td><td align='center'><code>ffabianosantos</code></td><td align='center'><b>54</b></td></tr>
-<tr><td><a href='https://github.com/ffabianosantos/Pedidos'><b>Pedidos</b></a></td><td align='center'><code>ffabianosantos</code></td><td align='center'><b>4</b></td></tr>
+<tr><td><a href='https://github.com/ffabianosantos/Front-Pedidos-Extra'><b>Front-Pedidos-Extra</b></a></td><td align='center'><code>ffabianosantos</code></td><td align='center'><b>19</b></td></tr>
+<tr><td><a href='https://github.com/ffabianosantos/Pedidos'><b>Pedidos</b></a></td><td align='center'><code>ffabianosantos</code></td><td align='center'><b>9</b></td></tr>
 </table>
 
 ---

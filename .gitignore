@@ -1,0 +1,12 @@
+# Script de atualização — executado localmente, não vai para o repo
+update_readme.py
+linkedin_data.json
+requirements.txt
+.github/
+NOTAS_PROJETO.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
