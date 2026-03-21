@@ -1,6 +1,16 @@
 # Olá, sou Fabio Chorobura 👋
 
+<<<<<<< HEAD
 > *Atualizado automaticamente em 21/03/2026 00:01 UTC*
+=======
+
+Verdade! A URL correta é:
+
+Esta leva direto para criar um novo token clássico, onde aparecem as opções de escopos que você precisa (`repo`, `read:org`, `read:user`). 🎯
+
+
+> *Atualizado automaticamente em 18/03/2026 22:39 UTC*
+>>>>>>> 125b1530bd13c7673edfd934d483fefee6adeaba
 
 Sou Desenvolvedor Fullstack na LCI Telecom, com formação em Engenharia de Computação pela UNINASSAU e devidamente registrado ao CREA-MT.
 
