@@ -1,6 +1,6 @@
 # Olá, sou Fabio Chorobura 👋
 
-> *Atualizado automaticamente em 21/03/2026 00:16 UTC*
+> *Atualizado automaticamente em 21/03/2026 00:19 UTC*
 
 Sou Desenvolvedor Fullstack na LCI Telecom, com formação em Engenharia de Computação pela UNINASSAU e devidamente registrado ao CREA-MT.
 
@@ -27,11 +27,11 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 
 <table width="100%">
 <tr><th width="12%" align="left">Linguagem</th><th width="82%" align="left">Proporção</th><th width="6%" align="right">%</th></tr>
-<tr><td width='12%'><b>TypeScript</b></td><td width='82%'><code>█████████████████████████████████░░░░░░░</code></td><td width='6%' align='right'><b>83.3%</b></td></tr>
-<tr><td width='12%'><b>Java</b></td><td width='82%'><code>██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>15.9%</b></td></tr>
-<tr><td width='12%'><b>JavaScript</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.4%</b></td></tr>
-<tr><td width='12%'><b>HTML</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.2%</b></td></tr>
-<tr><td width='12%'><b>CSS</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.2%</b></td></tr>
+<tr><td width='12%'><b>TypeScript</b></td><td width='82%'><code>███████████████████████████████░░░░░░░░░</code></td><td width='6%' align='right'><b>78.1%</b></td></tr>
+<tr><td width='12%'><b>Java</b></td><td width='82%'><code>█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>21.4%</b></td></tr>
+<tr><td width='12%'><b>JavaScript</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.3%</b></td></tr>
+<tr><td width='12%'><b>HTML</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.1%</b></td></tr>
+<tr><td width='12%'><b>CSS</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.1%</b></td></tr>
 </table>
 
 ---
@@ -39,8 +39,8 @@ Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em in
 ## 🤝 Contribuições em projetos de terceiros
 
 
-- **167** commits totais (Search API)
-- **28** commits em 2 repositórios de terceiros
+- **168** commits totais (Search API)
+- **83** commits em 4 repositórios de terceiros
 - **5** linguagens detectadas
 
 
