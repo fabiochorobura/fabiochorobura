@@ -4,10 +4,6 @@ Minha atuação combina desenvolvimento técnico e gestão operacional, aplicand
 
 No meu papel atual, trabalho tanto em sistemas de controle de frotas, atendimentos e faturamento (modelagem de dados, relatórios financeiros e operacionais) quanto em gestão de atendimentos e processos sistêmicos (instalações, agendamentos e logística de equipes).
 
-Anteriormente, aprofundei meus conhecimentos em qualidade de software e automação de testes AWS na Compass UOL.
-
-Sou apaixonado por tecnologia e motivado pelo desafio de transformar dados em inteligência operacional, desenvolvendo sistemas que aumentam a eficiência e apoiam decisões estratégicas no setor de telecomunicações e gestão corporativa.
-
 ---
 
 ## 🎓 Formação Acadêmica
