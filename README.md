@@ -13,7 +13,7 @@ Na **Chorobura Sistemas**, conduzo o desenvolvimento de produtos próprios e sol
 ## Experiência profissional
 
 - **LCI Telecom — Analista de Desenvolvimento de Sistemas**, desde outubro de 2024. Desenvolvimento e manutenção de aplicações web e mobile, fluxos de atendimento e instalação, gestão de frotas e painéis Power BI para indicadores comerciais e operacionais.
-- **Chorobura Sistemas — Fundador e Desenvolvedor Full Stack**, desde outubro de 2026. Produtos próprios, sistemas sob demanda e desenvolvimento pro bono para organizações sociais.
+- **Chorobura Sistemas — Fundador e Desenvolvedor Full Stack**, desde outubro de 2026. Produtos próprios, sistemas sob demanda e desenvolvimento pro bono para organizações sociais. Responsável pelo desenvolvimento completo da aplicação da [Associação Mãezinha do Céu](https://associacaomaezinhadoceu.org/), do backend e banco de dados ao frontend e painel administrativo.
 - **Compass UOL — Programa de Qualidade de Software e Testes**, agosto a dezembro de 2023. Formação em fundamentos AWS, JavaScript, Scrum, segurança de software e testes de performance.
 - **UpScrum Sistemas e Consultoria — Estágio em Web Design**, junho a julho de 2023. Desenvolvimento de interfaces responsivas com Bootstrap.
 - **Reiventt Tecnologia — Trainee em Tecnologia**, outubro de 2016 a março de 2017. Apoio ao desenvolvimento de ferramentas de estoque.
@@ -35,7 +35,7 @@ Na **Chorobura Sistemas**, conduzo o desenvolvimento de produtos próprios e sol
 | --- | --- | --- |
 | **Chorobura System Car** | Gestão de frotas: manutenção, custos, combustível, documentos, checklists e integrações. | [Apresentação](https://chorobura.com.br/sistemas/system-car/) |
 | **Dovira** | Cartão convênio com rede credenciada, regras de uso, limite, portais por perfil e fechamento financeiro. | [Apresentação](https://chorobura.com.br/sistemas/dovira/) |
-| **Associação Mãezinha do Céu** | Projeto pro bono: site institucional, transparência, eventos, doações e administração de conteúdo. | [Projeto social](https://chorobura.com.br/projetos-sociais/) |
+| **Associação Mãezinha do Céu** | Aplicação completa desenvolvida por Fábio Chorobura, pro bono: backend, frontend, banco de dados, site institucional e painel administrativo, com gestão de funcionários e diretoria, permissões por perfil, transparência, eventos, bazar e doações com QR Code. | [Acessar a aplicação](https://associacaomaezinhadoceu.org/) |
 | **Seu poder de compra** | Painel de dados e gráficos interativos sobre salário mínimo, inflação e poder de compra. | [Explorar o painel](https://chorobura.com.br/salario-minimo-vs-inflacao/) |
 | **Apuração 2026** | Painel com dados oficiais do TSE, mapas, filtros e modo TV. | [Ver o painel](https://chorobura.com.br/eleicoes/) |
 
