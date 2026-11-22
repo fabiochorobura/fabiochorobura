@@ -1,64 +1,56 @@
-Sou Desenvolvedor Fullstack, com formação em Engenharia de Computação devidamente registrado ao CREA-MT.
+# Fábio Chorobura
 
-Minha atuação combina desenvolvimento técnico e gestão operacional, aplicando tecnologias como Java (microsserviços), ReactJS, PostgreSQL para criar soluções robustas e escaláveis.
+**Engenheiro da Computação · Desenvolvedor Full Stack e Mobile · Fundador da Chorobura Sistemas**
 
-No meu papel atual, trabalho tanto em sistemas de controle de frotas, atendimentos e faturamento (modelagem de dados, relatórios financeiros e operacionais) quanto em gestão de atendimentos e processos sistêmicos (instalações, agendamentos e logística de equipes).
+[Chorobura Sistemas](https://chorobura.com.br/) · [LinkedIn](https://www.linkedin.com/in/fabiochorobura) · [Contato comercial](mailto:comercial@chorobura.com.br)
 
----
+## Sobre mim
 
-## 🎓 Formação Acadêmica
+Sou engenheiro da computação, com registro no CREA e pós-graduações em Governança de TI e Gerenciamento de Projetos de TI. Trabalho com sistemas empresariais, aplicações web e mobile, APIs, bancos de dados e indicadores para apoiar a operação e a gestão.
 
-- **UNINASSAU** — Engenharia da Computação *(jan/2019 – dez/2023)*
-- **FACUMINAS** — Pós-graduação Lato Sensu — Gestão de Projetos de TI *(mai/2025 – jan/2026)*
+Na **Chorobura Sistemas**, conduzo o desenvolvimento de produtos próprios e soluções sob medida: entendimento do processo, definição das regras, arquitetura, implementação, implantação e evolução do sistema.
 
+## Experiência profissional
 
+- **LCI Telecom — Analista de Desenvolvimento de Sistemas**, desde outubro de 2024. Desenvolvimento e manutenção de aplicações web e mobile, fluxos de atendimento e instalação, gestão de frotas e painéis Power BI para indicadores comerciais e operacionais.
+- **Chorobura Sistemas — Fundador e Desenvolvedor Full Stack**, desde outubro de 2026. Produtos próprios, sistemas sob demanda e desenvolvimento pro bono para organizações sociais.
+- **Compass UOL — Programa de Qualidade de Software e Testes**, agosto a dezembro de 2023. Formação em fundamentos AWS, JavaScript, Scrum, segurança de software e testes de performance.
+- **UpScrum Sistemas e Consultoria — Estágio em Web Design**, junho a julho de 2023. Desenvolvimento de interfaces responsivas com Bootstrap.
+- **Reiventt Tecnologia — Trainee em Tecnologia**, outubro de 2016 a março de 2017. Apoio ao desenvolvimento de ferramentas de estoque.
 
----
+## Tecnologias
 
-## 🔤 Linguagens em projetos de terceiros
+| Área | Tecnologias e ferramentas |
+| --- | --- |
+| Backend e integrações | Java, Spring Boot, APIs REST e microsserviços |
+| Frontend | React, TypeScript, JavaScript, HTML e CSS |
+| Mobile | Dart e Flutter |
+| Dados e indicadores | SQL, PostgreSQL e Power BI |
+| Qualidade de software | Postman, k6 e JMeter |
+| Ambiente e versionamento | Git e Linux |
 
-<table width="100%">
-<tr><th width="12%" align="left">Linguagem</th><th width="82%" align="left">Proporção</th><th width="6%" align="right">%</th></tr>
-<tr><td width='12%'><b>TypeScript</b></td><td width='82%'><code>███████████████████████████████░░░░░░░░░</code></td><td width='6%' align='right'><b>78.1%</b></td></tr>
-<tr><td width='12%'><b>Java</b></td><td width='82%'><code>█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>21.4%</b></td></tr>
-<tr><td width='12%'><b>JavaScript</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.3%</b></td></tr>
-<tr><td width='12%'><b>HTML</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.1%</b></td></tr>
-<tr><td width='12%'><b>CSS</b></td><td width='82%'><code>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code></td><td width='6%' align='right'><b>0.1%</b></td></tr>
-</table>
+## Projetos da Chorobura
 
----
+| Projeto | O que desenvolvo | Conhecer |
+| --- | --- | --- |
+| **Chorobura System Car** | Gestão de frotas: manutenção, custos, combustível, documentos, checklists e integrações. | [Apresentação](https://chorobura.com.br/sistemas/system-car/) |
+| **Dovira** | Cartão convênio com rede credenciada, regras de uso, limite, portais por perfil e fechamento financeiro. | [Apresentação](https://chorobura.com.br/sistemas/dovira/) |
+| **Associação Mãezinha do Céu** | Projeto pro bono: site institucional, transparência, eventos, doações e administração de conteúdo. | [Projeto social](https://chorobura.com.br/projetos-sociais/) |
+| **Seu poder de compra** | Painel de dados e gráficos interativos sobre salário mínimo, inflação e poder de compra. | [Explorar o painel](https://chorobura.com.br/salario-minimo-vs-inflacao/) |
+| **Apuração 2026** | Painel com dados oficiais do TSE, mapas, filtros e modo TV. | [Ver o painel](https://chorobura.com.br/eleicoes/) |
 
-## 🤝 Contribuições em projetos de terceiros
+Também mantenho projetos de desenvolvimento e protótipos em **marketplaces de serviços, gestão de pedidos e projetos, sistemas administrativos e monitoramento ambiental e geoespacial**.
 
+Os repositórios públicos deste perfil também registram minha trajetória de estudos. A apresentação dos produtos e dos projetos sociais está no [site da Chorobura](https://chorobura.com.br/produtos/).
 
-- **169** commits totais
-- **83** commits em 4 repositórios de terceiros
-- **5** linguagens detectadas
+## Formação
 
+- **Engenharia da Computação — UNINASSAU**, 2019–2023.
+- **Pós-graduação em Governança de TI — FACUMINAS**, 2026.
+- **Pós-graduação em Gerenciamento de Projetos de TI — FACUMINAS**, 2026.
 
----
+## Contato
 
-## 🛠️ Tecnologias
-
-**QA &amp; Testes:**
-<img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white" />
-<img src="https://img.shields.io/badge/K6-7D64FF?logo=k6&logoColor=white" />
-<img src="https://img.shields.io/badge/JMeter-D4AF37?logo=java&logoColor=white" />
-
-**Desenvolvimento:**
-<img src="https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/HTML5-E34C26?logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" />
-
----
-
-## 📞 Contatos
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabiochorobura)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/fabiochorobura)
+- [Sobre mim e a Chorobura](https://chorobura.com.br/sobre/)
+- [LinkedIn](https://www.linkedin.com/in/fabiochorobura)
+- [comercial@chorobura.com.br](mailto:comercial@chorobura.com.br)
