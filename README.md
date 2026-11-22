@@ -45,6 +45,10 @@ Também mantenho projetos de desenvolvimento e protótipos em **marketplaces de 
 
 Os repositórios públicos deste perfil também registram minha trajetória de estudos. A apresentação dos produtos e dos projetos sociais está no [site da Chorobura](https://chorobura.com.br/produtos/).
 
+## Colaboração em projeto público
+
+Contribuo no [Central da Secretaria — APAE](https://github.com/RafaelBeatto/central-de-secretaria), projeto de sistema administrativo com backend Java/Spring Boot e frontend React/TypeScript. O repositório é mantido por RafaelBeatto.
+
 ## Formação
 
 - **Engenharia da Computação — UNINASSAU**, 2019–2023.
