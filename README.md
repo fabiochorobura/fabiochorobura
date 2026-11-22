@@ -31,8 +31,6 @@ Na **Chorobura Sistemas**, conduzo o desenvolvimento de produtos próprios e sol
 
 ## Projetos da Chorobura
 
-[Portfólio no GitHub: apresentações e referências dos projetos](https://github.com/fabiochorobura/chorobura-sistemas).
-
 | Projeto | O que desenvolvo | Conhecer |
 | --- | --- | --- |
 | **Chorobura System Car** | Gestão de frotas: manutenção, custos, combustível, documentos, checklists e integrações. | [Apresentação](https://chorobura.com.br/sistemas/system-car/) |
